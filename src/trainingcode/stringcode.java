@@ -9,20 +9,20 @@ public class stringcode
 		{
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("enter the string-1:");
-		String str1=sc.nextLine();
-		str1=str1.toLowerCase();
-		int cons=0;
-		for(int i=0;i<str1.length()-1;i++)
+		System.out.println("enter the string:");
+		String str=sc.next();
+		str=str.toLowerCase();
+	
+		for(int i=0;i<str.length();i++)
 		{
-			if(str1.charAt(i)=='a' ||str1.charAt(i)=='e' ||str1.charAt(i)=='i' ||
-					str1.charAt(i)=='o' ||str1.charAt(i)=='u')
+			if(str.charAt(i)=='a' ||str.charAt(i)=='e' ||str.charAt(i)=='i' ||
+					str.charAt(i)=='o' ||str.charAt(i)=='u')
 			{
-				System.out.print("@");
+				System.out.println("@");
 			}
 			else
 			{
-				System.out.print("str1");
+				System.out.println(str.charAt(i));
 			}
 	
 
