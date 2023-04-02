@@ -1,5 +1,5 @@
 package trainingcode;
-class Dog
+class cat
 {
 	private String name;
 	private String color;
@@ -25,9 +25,9 @@ public class lanunch2
 {
 	public static void main(String[] args) 
 	{
-		Dog d1=new Dog();
-		d1.setData("blacky","black",7000);
-		d1.getData();
+		cat c1=new cat();
+		c1.setData("blacky","black",7000);
+		c1.getData();
 		
 	}
 

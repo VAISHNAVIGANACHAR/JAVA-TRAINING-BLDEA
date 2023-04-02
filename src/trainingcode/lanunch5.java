@@ -1,5 +1,5 @@
 package trainingcode;
-class Dog
+class lion
 {
 	private String name;
 	private String color;
@@ -8,9 +8,9 @@ class Dog
     
 	void setData(String a,String b,int c) 
     {
-      name=a;
-      color=b;
-      cost=c;
+      this.name=name;
+      this. color=color;
+      this. cost=cost;
     }
      
     void getData()
@@ -22,13 +22,13 @@ class Dog
    
     }
 
-public class launch1 
+public class lanunch5
 {
 	public static void main(String[] args) 
 	{
-		Dog d1=new Dog();
-		d1.setData("blacky","black",7000);
-		d1.getData();
+		lion l1=new lion();
+		l1.setData("blacky","black",7000);
+		l1.getData();
 		
 	}
 
