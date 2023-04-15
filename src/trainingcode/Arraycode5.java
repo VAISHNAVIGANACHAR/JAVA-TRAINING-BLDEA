@@ -25,7 +25,7 @@ public class Arraycode5
 		System.out.println("enter the array element to be searched");
 		        int key=sc.nextInt();
 		        int arr[]= {10,30,25,68,40,15,90,78,144,71,54,8};
-		int res=linearSearch(arr,key);
+		int res=linearsearch(arr,key);
 		if(res>0)
 		{
 			System.out.println("element found in position"+(res));
