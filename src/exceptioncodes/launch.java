@@ -12,16 +12,14 @@ public class launch
 			int num1=sc.nextInt();
 			System.out.println("enter denominator");
 			int num2=sc.nextInt();
-			int numerator = 10 ;
-			int denominator=5;
-			int res=numerator/denominator;
+			int num = 10 ;
+			int deno=5;
+			int res=num/deno; 
 			System.out.println(res);
 		}
 		catch(ArithmeticException e)
 		{
 			System.out.println("ArithmeticException is generated");
 		}
-		
+		}
 	}
-
-}
