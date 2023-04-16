@@ -14,6 +14,7 @@ public class CrorepathiApp {
 		String name =sc.next();
 
 		System.out.println("what is your age");
+		
 		int age =sc.nextInt();
 
 		System.out.println("what is your city");
